@@ -19,6 +19,7 @@ import GalleryPage from "./pages/gallery";
 import FaqPage from "./pages/faq";
 import TeamPage from "./pages/team";
 import TeamDetailPage from "./pages/team/team.detail";
+import PricingPage from "./pages/pricing";
 
 
 function App() {
@@ -74,6 +75,10 @@ function App() {
         {
           path: "/team-detail",
           element: <TeamDetailPage />,
+        },
+        {
+          path: "/pricing",
+          element: <PricingPage />,
         },
         {
           path: "/contact",
