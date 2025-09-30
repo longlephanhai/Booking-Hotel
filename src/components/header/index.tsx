@@ -70,7 +70,7 @@ const Header = () => {
                         <Link to="/services">Facilities</Link>
                         <ul>
                           <li> <Link to="/services">Services</Link></li>
-                          <li> <Link to="/single-service">Services Details</Link></li>
+                          <li> <Link to="/service-detail">Services Details</Link></li>
                         </ul>
                       </li>
                       <li className="has-sub"><Link to="#">Pages</Link>

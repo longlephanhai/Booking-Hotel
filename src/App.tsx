@@ -14,6 +14,7 @@ import AboutPage from "./pages/about";
 import RoomPage from "./pages/room";
 import RoomDetail from "./pages/room/room.detail";
 import ServicePage from "./pages/service";
+import ServiceDetail from "./pages/service/service.detail";
 
 
 function App() {
@@ -49,6 +50,10 @@ function App() {
         {
           path: "/services",
           element: <ServicePage />,
+        },
+        {
+          path: "/service-detail",
+          element: <ServiceDetail />,
         },
         {
           path: "/contact",
