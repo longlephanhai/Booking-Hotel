@@ -13,6 +13,7 @@ import HomePageFullMenu from "./pages/home/index5";
 import AboutPage from "./pages/about";
 import RoomPage from "./pages/room";
 import RoomDetail from "./pages/room/room.detail";
+import ServicePage from "./pages/service";
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
         {
           path: "/room-detail",
           element: <RoomDetail />,
+        },
+        {
+          path: "/services",
+          element: <ServicePage />,
         },
         {
           path: "/contact",
