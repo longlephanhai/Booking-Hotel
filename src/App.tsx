@@ -12,6 +12,7 @@ import SideMenu from "./pages/home/index4";
 import HomePageFullMenu from "./pages/home/index5";
 import AboutPage from "./pages/about";
 import RoomPage from "./pages/room";
+import RoomDetail from "./pages/room/room.detail";
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
         {
           path: "/room",
           element: <RoomPage />,
+        },
+        {
+          path: "/room-detail",
+          element: <RoomDetail />,
         },
         {
           path: "/contact",

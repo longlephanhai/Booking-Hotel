@@ -9,8 +9,8 @@ const RoomPage = () => {
     <>
       <BreadcrumbArea title="Our Menu" tag="Our Menu" />
       <RoomArea2 />
-      <FeatureArea/>
-      <BookingArea2/>
+      <FeatureArea />
+      <BookingArea2 />
     </>
   )
 }

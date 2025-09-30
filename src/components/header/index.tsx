@@ -63,7 +63,7 @@ const Header = () => {
                         <Link to="/room">our rooms</Link>
                         <ul>
                           <li> <Link to="/room">Our Rooms</Link></li>
-                          <li> <Link to="/single-rooms">Rooms Details</Link></li>
+                          <li> <Link to="/room-detail">Rooms Details</Link></li>
                         </ul>
                       </li>
                       <li className="has-sub">
