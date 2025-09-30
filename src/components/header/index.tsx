@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../../assets/img/logo/logo.png'
 
 
@@ -49,48 +50,48 @@ const Header = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li className="has-sub">
-                        <a href="index-2.html">Home</a>
+                        <Link to="/">Home</Link>
                         <ul>
-                          <li><a href="index-2.html">Home Page 01</a></li>
-                          <li><a href="index-3.html">Home Page 02</a></li>
-                          <li><a href="index-4.html">Home Page Side Menu</a></li>
-                          <li><a href="index-5.html">Home Page Full Menu</a></li>
+                          <li><Link to="/">Home Page 01</Link></li>
+                          <li><Link to="/">Home Page 02</Link></li>
+                          <li><Link to="/">Home Page Side Menu</Link></li>
+                          <li><Link to="/">Home Page Full Menu</Link></li>
                         </ul>
                       </li>
-                      <li><a href="about.html">About</a></li>
+                      <li><Link to="about">About</Link></li>
                       <li className="has-sub">
-                        <a href="room.html">our rooms</a>
+                        <Link to="room.html">our rooms</Link>
                         <ul>
-                          <li> <a href="room.html">Our Rooms</a></li>
-                          <li> <a href="single-rooms.html">Rooms Details</a></li>
+                          <li> <Link to="room.html">Our Rooms</Link></li>
+                          <li> <Link to="single-rooms.html">Rooms Details</Link></li>
                         </ul>
-                      </li>
-                      <li className="has-sub">
-                        <a href="services.html">Facilities</a>
-                        <ul>
-                          <li> <a href="services.html">Services</a></li>
-                          <li> <a href="single-service.html">Services Details</a></li>
-                        </ul>
-                      </li>
-                      <li className="has-sub"><a href="#">Pages</a>
-                        <ul>
-                          <li><a href="projects.html">Gallery</a></li>
-                          <li><a href="faq.html">Faq</a></li>
-                          <li><a href="team.html">Team</a></li>
-                          <li><a href="team-single.html">Team Details</a></li>
-                          <li><a href="pricing.html">Pricing</a></li>
-                          <li><a href="shop.html">Shop</a></li>
-                          <li><a href="shop-details.html">Shop Details</a>
-                          </li></ul>
                       </li>
                       <li className="has-sub">
-                        <a href="blog.html">Blog</a>
+                        <Link to="services.html">Facilities</Link>
                         <ul>
-                          <li><a href="blog.html">Blog</a></li>
-                          <li><a href="blog-details.html">Blog Details</a></li>
+                          <li> <Link to="services.html">Services</Link></li>
+                          <li> <Link to="single-service.html">Services Details</Link></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li className="has-sub"><Link to="#">Pages</Link>
+                        <ul>
+                          <li><Link to="projects.html">Gallery</Link></li>
+                          <li><Link to="faq.html">Faq</Link></li>
+                          <li><Link to="team.html">Team</Link></li>
+                          <li><Link to="team-single.html">Team Details</Link></li>
+                          <li><Link to="pricing.html">Pricing</Link></li>
+                          <li><Link to="shop.html">Shop</Link></li>
+                          <li><Link to="shop-details.html">Shop Details</Link></li>
+                        </ul>
+                      </li>
+                      <li className="has-sub">
+                        <Link to="blog">Blog</Link>
+                        <ul>
+                          <li><Link to="blog">Blog</Link></li>
+                          <li><Link to="blog-details">Blog Details</Link></li>
+                        </ul>
+                      </li>
+                      <li><Link to="contact">Contact</Link></li>
                     </ul>
                   </nav>
                 </div>

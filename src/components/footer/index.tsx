@@ -1,9 +1,9 @@
 import logo from '../../assets/img/logo/logo.png'
-
+import footer from '../../assets/img/bg/footer-bg.png'
 const Footer = () => {
   return (
     <footer className="footer-bg footer-p">
-      <div className="footer-top  pt-90 pb-40" style={{ backgroundColor: '#644222', backgroundImage: 'url(img/bg/footer-bg.png)' }}>
+      <div className="footer-top  pt-90 pb-40" style={{ backgroundColor: '#644222', backgroundImage: `url(${footer})` }}>
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-xl-4 col-lg-4 col-sm-6">
