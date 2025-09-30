@@ -54,7 +54,7 @@ const Header = () => {
                         <ul>
                           <li><Link to="/home-2">Home Page 01</Link></li>
                           <li><Link to="/home-3">Home Page 02</Link></li>
-                          <li><Link to="/">Home Page Side Menu</Link></li>
+                          <li><Link to="/side-menu">Home Page Side Menu</Link></li>
                           <li><Link to="/">Home Page Full Menu</Link></li>
                         </ul>
                       </li>

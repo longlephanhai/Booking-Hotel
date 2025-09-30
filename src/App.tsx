@@ -9,6 +9,7 @@ import HomePage from "./pages/home";
 import ContactPage from "./pages/contact";
 import HomePage3 from "./pages/home/index3";
 import HomePage2 from "./pages/home/index2";
+import SideMenu from "./pages/home/index4";
 
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
           element: <ContactPage />,
         }
       ]
+    },
+    {
+      path: "/side-menu",
+      element: <SideMenu />,
     }
   ]);
   return (
