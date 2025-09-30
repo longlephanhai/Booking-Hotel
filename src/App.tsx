@@ -22,6 +22,7 @@ import TeamDetailPage from "./pages/team/team.detail";
 import PricingPage from "./pages/pricing";
 import ShopPage from "./pages/shop";
 import ShopDetail from "./pages/shop/shop.detail";
+import BlogPage from "./pages/blog";
 
 
 function App() {
@@ -89,6 +90,10 @@ function App() {
         {
           path: "/shop-details",
           element: <ShopDetail />,
+        },
+        {
+          path: "/blog",
+          element: <BlogPage />,
         },
         {
           path: "/contact",
