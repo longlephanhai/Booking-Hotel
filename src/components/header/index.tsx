@@ -58,7 +58,7 @@ const Header = () => {
                           <li><Link to="/">Home Page Full Menu</Link></li>
                         </ul>
                       </li>
-                      <li><Link to="about">About</Link></li>
+                      <li><Link to="/about">About</Link></li>
                       <li className="has-sub">
                         <Link to="room.html">our rooms</Link>
                         <ul>

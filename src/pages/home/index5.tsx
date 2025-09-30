@@ -1,4 +1,3 @@
-import AboutArea from "../../components/about-area"
 import AboutArea5 from "../../components/about-area/index5"
 import BlogArea from "../../components/blog-area"
 import BookingArea from "../../components/booking-area"

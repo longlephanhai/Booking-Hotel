@@ -10,6 +10,7 @@ import HomePage3 from "./pages/home/index3";
 import HomePage2 from "./pages/home/index2";
 import SideMenu from "./pages/home/index4";
 import HomePageFullMenu from "./pages/home/index5";
+import AboutPage from "./pages/about";
 
 
 function App() {
@@ -31,9 +32,13 @@ function App() {
           element: <HomePage3 />,
         },
         {
+          path: "/about",
+          element: <AboutPage />,
+        },
+        {
           path: "/contact",
           element: <ContactPage />,
-        }
+        },
       ]
     },
     {
