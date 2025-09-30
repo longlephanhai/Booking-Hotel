@@ -12,7 +12,7 @@ const BrandArea = () => {
     const $brand = $(".brand-active");
 
     if ($brand.length > 0) {
-      // tránh bị init nhiều lần
+
       if ($brand.hasClass("slick-initialized")) {
         $brand.slick("unslick");
       }
@@ -68,7 +68,7 @@ const BrandArea = () => {
       });
     }
 
-    // cleanup khi component unmount
+
     return () => {
       if ($brand.hasClass("slick-initialized")) {
         $brand.slick("unslick");

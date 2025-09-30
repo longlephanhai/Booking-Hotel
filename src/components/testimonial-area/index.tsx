@@ -13,15 +13,14 @@ const TestimonialArea = () => {
     const $slider = $(".testimonial-active");
 
     if ($slider.length > 0) {
-      // Nếu đã init rồi thì hủy trước
+
       if ($slider.hasClass("slick-initialized")) {
         $slider.slick("unslick");
       }
 
-      // Init slick
       $slider.slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         arrows: false,
         dots: true,
         infinite: true,
@@ -34,7 +33,6 @@ const TestimonialArea = () => {
       });
     }
 
-    // Cleanup khi unmount
     return () => {
       if ($slider.hasClass("slick-initialized")) {
         $slider.slick("unslick");

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import anImg02 from '../../assets/img/bg/an-img-02.png'
 import aboutImg02 from '../../assets/img/features/about_img_02.png'
 import aboutImg03 from '../../assets/img/features/about_img_03.png'
@@ -37,7 +38,7 @@ const AboutArea = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="slider-btn">
-                      <a href="about.html" className="btn ss-btn smoth-scroll">Discover More</a>
+                      <Link to="about" className="btn ss-btn smoth-scroll">Discover More</Link>
                     </div>
                   </div>
                   <div className="col-md-6 text-right">

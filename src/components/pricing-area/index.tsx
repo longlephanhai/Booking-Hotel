@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import anImg01 from '../../assets/img/bg/an-img-01.png'
 import anImg02 from '../../assets/img/bg/an-img-02.png'
 
@@ -35,7 +36,7 @@ const PricingArea = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <a href="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></a>
+                <Link to="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>
@@ -58,7 +59,7 @@ const PricingArea = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <a href="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></a>
+                <Link to="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>

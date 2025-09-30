@@ -5,18 +5,19 @@ import $ from "jquery";
 import "slick-carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const SliderArea = () => {
   useEffect(() => {
     const $slider = $(".slider-active");
 
     if ($slider.length > 0) {
-      // huỷ slick cũ nếu đã init
+
       if ($slider.hasClass("slick-initialized")) {
         $slider.slick("unslick");
       }
 
-      // init slick
+
       $slider.on("init", function () {
         const $firstAnimatingElements = $(".single-slider:first-child").find(
           "[data-animation]"
@@ -50,7 +51,7 @@ const SliderArea = () => {
       });
     }
 
-    // cleanup
+
     return () => {
       if ($slider.hasClass("slick-initialized")) {
         $slider.slick("unslick");
@@ -58,7 +59,7 @@ const SliderArea = () => {
     };
   }, []);
 
-  // animation helper
+
   const doAnimations = (elements: JQuery<HTMLElement>) => {
     const animationEndEvents =
       "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
@@ -88,8 +89,8 @@ const SliderArea = () => {
                   <h2 data-animation="fadeInUp" data-delay=".4s">Enjoy A Luxuary Experience</h2>
                   <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
                   <div className="slider-btn mt-30 mb-105">
-                    <a href="contact.html" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </a>
-                    <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</a>
+                    <Link to="contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
+                    {/* <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</a> */}
                   </div>
                 </div>
               </div>
@@ -104,8 +105,8 @@ const SliderArea = () => {
                   <h2 data-animation="fadeInUp" data-delay=".4s">Enjoy A Luxuary Experience</h2>
                   <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
                   <div className="slider-btn mt-30 mb-105">
-                    <a href="contact.html" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </a>
-                    <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</a>
+                    <Link to="contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
+                    {/* <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</a> */}
                   </div>
                 </div>
               </div>

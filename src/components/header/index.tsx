@@ -25,10 +25,10 @@ const Header = () => {
             <div className="col-lg-2 col-md-2 d-none d-lg-block text-right">
               <div className="header-social">
                 <span>
-                  <a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a>
-                  <a href="#" title="LinkedIn"><i className="fab fa-instagram" /></a>
-                  <a href="#" title="Twitter"><i className="fab fa-twitter" /></a>
-                  <a href="#" title="Twitter"><i className="fab fa-youtube" /></a>
+                  <Link to="#" title="Facebook"><i className="fab fa-facebook-f" /></Link>
+                  <Link to="#" title="LinkedIn"><i className="fab fa-instagram" /></Link>
+                  <Link to="#" title="Twitter"><i className="fab fa-twitter" /></Link>
+                  <Link to="#" title="Twitter"><i className="fab fa-youtube" /></Link>
                 </span>
                 {/*  /social media icon redux */}
               </div>
@@ -42,7 +42,7 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
-                  <a href="index-2.html"><img src={logo} alt="logo" /></a>
+                  <Link to="/"><img src={logo} alt="logo" /></Link>
                 </div>
               </div>
               <div className="col-xl-8 col-lg-8">
@@ -52,8 +52,8 @@ const Header = () => {
                       <li className="has-sub">
                         <Link to="/">Home</Link>
                         <ul>
-                          <li><Link to="/">Home Page 01</Link></li>
-                          <li><Link to="/">Home Page 02</Link></li>
+                          <li><Link to="/home-2">Home Page 01</Link></li>
+                          <li><Link to="/home-3">Home Page 02</Link></li>
                           <li><Link to="/">Home Page Side Menu</Link></li>
                           <li><Link to="/">Home Page Full Menu</Link></li>
                         </ul>
@@ -97,7 +97,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-xl-2 col-lg-2 d-none d-lg-block">
-                <a href="contact.html" className="top-btn mt-10 mb-10">reservation </a>
+                <Link to="contact.html" className="top-btn mt-10 mb-10">reservation </Link>
               </div>
               <div className="col-12">
                 <div className="mobile-menu" />

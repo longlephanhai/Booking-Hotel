@@ -13,12 +13,12 @@ import sveIcon6 from '../../assets/img/icon/sve-icon6.png'
 import { useEffect } from "react";
 import $ from "jquery";
 import "slick-carousel";
+import { Link } from 'react-router-dom'
 
 const RoomArea = () => {
   useEffect(() => {
     const $slider = $(".services-active");
 
-    // Destroy nếu đã init trước đó
     if ($slider.hasClass("slick-initialized")) {
       $slider.slick("unslick");
     }
@@ -40,7 +40,7 @@ const RoomArea = () => {
       ],
     });
 
-    // cleanup khi component unmount
+
     return () => {
       if ($slider.hasClass("slick-initialized")) {
         $slider.slick("unslick");
@@ -63,18 +63,18 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <a className="gallery-link popup-image" href={roomImg1}>
+                <Link className="gallery-link popup-image" to={roomImg1}>
                   <img src={roomImg1} alt="img" />
-                </a>
+                </Link>
               </div>
               <div className="services-content">
                 <div className="day-book">
                   <ul>
                     <li>$600/Night</li>
-                    <li><a href="contact.html">Book Now</a></li>
+                    <li><Link to="contact.html">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><a href="single-rooms.html">Classic Balcony Room</a></h4>
+                <h4><Link to="single-rooms.html">Classic Balcony Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
                 <div className="icon">
                   <ul>
@@ -92,18 +92,18 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <a className="gallery-link popup-image" href={roomImg2}>
+                <Link className="gallery-link popup-image" to={roomImg2}>
                   <img src={roomImg2} alt="img" />
-                </a>
+                </Link>
               </div>
               <div className="services-content">
                 <div className="day-book">
                   <ul>
                     <li>$400/Night</li>
-                    <li><a href="contact.html">Book Now</a></li>
+                    <li><Link to="contact.html">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><a href="single-rooms.html">Superior Double Room</a></h4>
+                <h4><Link to="single-rooms.html">Superior Double Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
                 <div className="icon">
                   <ul>
@@ -121,18 +121,18 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <a className="gallery-link popup-image" href={roomImg3}>
+                <Link className="gallery-link popup-image" to={roomImg3}>
                   <img src={roomImg3} alt="img" />
-                </a>
+                </Link>
               </div>
               <div className="services-content">
                 <div className="day-book">
                   <ul>
                     <li>$100/Night</li>
-                    <li><a href="contact.html">Book Now</a></li>
+                    <li><Link to="contact.html">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><a href="single-rooms.html">Super Balcony Double Room</a></h4>
+                <h4><Link to="single-rooms.html">Super Balcony Double Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
                 <div className="icon">
                   <ul>
@@ -150,18 +150,18 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <a className="gallery-link popup-image" href={roomImg4}>
+                <Link className="gallery-link popup-image" to={roomImg4}>
                   <img src={roomImg4} alt="img" />
-                </a>
+                </Link>
               </div>
               <div className="services-content">
                 <div className="day-book">
                   <ul>
                     <li>$300/Night</li>
-                    <li><a href="contact.html">Book Now</a></li>
+                    <li><Link to="contact.html">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><a href="single-rooms.html">Delux Double Room</a></h4>
+                <h4><Link to="single-rooms.html">Delux Double Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
                 <div className="icon">
                   <ul>

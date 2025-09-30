@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import anImg01 from '../../assets/img/bg/an-img-01.png'
 import feIcon01 from '../../assets/img/icon/fe-icon01.png'
 import feIcon04 from '../../assets/img/icon/fe-icon04.png'
@@ -30,9 +31,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon01} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><a href="single-service.html"> Qulity Room</a></h3>
+                <h3><Link to="single-service.html"> Qulity Room</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <a href="single-service.html">Read More <i className="fal fa-long-arrow-right" /></a>
+                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -45,9 +46,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon04} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><a href="single-service.html">Privet Beach</a></h3>
+                <h3><Link to="single-service.html">Privet Beach</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <a href="single-service.html">Read More <i className="fal fa-long-arrow-right" /></a>
+                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -60,9 +61,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon05} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><a href="single-service.html">Best Accommodation</a></h3>
+                <h3><Link to="single-service.html">Best Accommodation</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <a href="single-service.html">Read More <i className="fal fa-long-arrow-right" /></a>
+                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -75,9 +76,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon06} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><a href="single-service.html"> Wellness &amp; Spa</a></h3>
+                <h3><Link to="single-service.html"> Wellness &amp; Spa</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <a href="single-service.html">Read More <i className="fal fa-long-arrow-right" /></a>
+                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -90,9 +91,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon07} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><a href="single-service.html">Restaurants &amp; Bars</a></h3>
+                <h3><Link to="single-service.html">Restaurants &amp; Bars</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <a href="single-service.html">Read More <i className="fal fa-long-arrow-right" /></a>
+                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -105,9 +106,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon08} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><a href="single-service.html">Special Offers</a></h3>
+                <h3><Link to="single-service.html">Special Offers</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <a href="single-service.html">Read More <i className="fal fa-long-arrow-right" /></a>
+                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
