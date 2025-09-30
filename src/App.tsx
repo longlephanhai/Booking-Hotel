@@ -17,6 +17,7 @@ import ServicePage from "./pages/service";
 import ServiceDetail from "./pages/service/service.detail";
 import GalleryPage from "./pages/gallery";
 import FaqPage from "./pages/faq";
+import TeamPage from "./pages/team";
 
 
 function App() {
@@ -64,6 +65,10 @@ function App() {
         {
           path: "/faq",
           element: <FaqPage />,
+        },
+        {
+          path: "/team",
+          element: <TeamPage />,
         },
         {
           path: "/contact",

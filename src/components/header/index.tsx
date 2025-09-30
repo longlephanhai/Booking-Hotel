@@ -77,27 +77,27 @@ const Header = () => {
                         <ul>
                           <li><Link to="/gallery">Gallery</Link></li>
                           <li><Link to="/faq">Faq</Link></li>
-                          <li><Link to="team.html">Team</Link></li>
-                          <li><Link to="team-single.html">Team Details</Link></li>
-                          <li><Link to="pricing.html">Pricing</Link></li>
-                          <li><Link to="shop.html">Shop</Link></li>
-                          <li><Link to="shop-details.html">Shop Details</Link></li>
+                          <li><Link to="/team">Team</Link></li>
+                          <li><Link to="/team-single">Team Details</Link></li>
+                          <li><Link to="/pricing">Pricing</Link></li>
+                          <li><Link to="/shop">Shop</Link></li>
+                          <li><Link to="/shop-details">Shop Details</Link></li>
                         </ul>
                       </li>
                       <li className="has-sub">
-                        <Link to="blog">Blog</Link>
+                        <Link to="/blog">Blog</Link>
                         <ul>
-                          <li><Link to="blog">Blog</Link></li>
-                          <li><Link to="blog-details">Blog Details</Link></li>
+                          <li><Link to="/blog">Blog</Link></li>
+                          <li><Link to="/blog-details">Blog Details</Link></li>
                         </ul>
                       </li>
-                      <li><Link to="contact">Contact</Link></li>
+                      <li><Link to="/contact">Contact</Link></li>
                     </ul>
                   </nav>
                 </div>
               </div>
               <div className="col-xl-2 col-lg-2 d-none d-lg-block">
-                <Link to="contact.html" className="top-btn mt-10 mb-10">reservation </Link>
+                <Link to="/contact" className="top-btn mt-10 mb-10">reservation </Link>
               </div>
               <div className="col-12">
                 <div className="mobile-menu" />
