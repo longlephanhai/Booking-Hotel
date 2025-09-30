@@ -75,7 +75,7 @@ const Header = () => {
                       </li>
                       <li className="has-sub"><Link to="#">Pages</Link>
                         <ul>
-                          <li><Link to="projects.html">Gallery</Link></li>
+                          <li><Link to="/gallery">Gallery</Link></li>
                           <li><Link to="faq.html">Faq</Link></li>
                           <li><Link to="team.html">Team</Link></li>
                           <li><Link to="team-single.html">Team Details</Link></li>

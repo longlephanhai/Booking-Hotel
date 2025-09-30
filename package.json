@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "@types/jquery": "^3.5.33",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
     "jquery": "^3.7.1",
+    "magnific-popup": "^1.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.3",
