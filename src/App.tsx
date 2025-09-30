@@ -11,6 +11,7 @@ import HomePage2 from "./pages/home/index2";
 import SideMenu from "./pages/home/index4";
 import HomePageFullMenu from "./pages/home/index5";
 import AboutPage from "./pages/about";
+import RoomPage from "./pages/room";
 
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
         {
           path: "/about",
           element: <AboutPage />,
+        },
+        {
+          path: "/room",
+          element: <RoomPage />,
         },
         {
           path: "/contact",

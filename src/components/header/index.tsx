@@ -60,17 +60,17 @@ const Header = () => {
                       </li>
                       <li><Link to="/about">About</Link></li>
                       <li className="has-sub">
-                        <Link to="room.html">our rooms</Link>
+                        <Link to="/room">our rooms</Link>
                         <ul>
-                          <li> <Link to="room.html">Our Rooms</Link></li>
-                          <li> <Link to="single-rooms.html">Rooms Details</Link></li>
+                          <li> <Link to="/room">Our Rooms</Link></li>
+                          <li> <Link to="/single-rooms">Rooms Details</Link></li>
                         </ul>
                       </li>
                       <li className="has-sub">
-                        <Link to="services.html">Facilities</Link>
+                        <Link to="/services">Facilities</Link>
                         <ul>
-                          <li> <Link to="services.html">Services</Link></li>
-                          <li> <Link to="single-service.html">Services Details</Link></li>
+                          <li> <Link to="/services">Services</Link></li>
+                          <li> <Link to="/single-service">Services Details</Link></li>
                         </ul>
                       </li>
                       <li className="has-sub"><Link to="#">Pages</Link>
