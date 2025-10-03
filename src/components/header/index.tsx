@@ -17,7 +17,7 @@ const Header = () => {
                   </li>
                   <li>
                     <i className="far fa-mobile" />
-                    <strong>+91 705 210-1786</strong>
+                    <strong>+84 777 666 555</strong>
                   </li>
                 </ul>
               </div>
