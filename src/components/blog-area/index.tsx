@@ -23,45 +23,45 @@ const BlogArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
               <div className="blog-thumb2">
-                <Link to="blog-details.html"><img src={innerb1} alt="img" /></Link>
+                <Link to="/blog-details"><img src={innerb1} alt="img" /></Link>
               </div>
               <div className="blog-content2">
                 <div className="date-home">
                   24th March 2022
                 </div>
-                <h4><Link to="blog-details.html">Cras accumsan nulla nec lacus ultricies placerat.</Link></h4>
+                <h4><Link to="/blog-details">Cras accumsan nulla nec lacus ultricies placerat.</Link></h4>
                 <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
-                <div className="blog-btn"><Link to="blog-details.html">Read More</Link></div>
+                <div className="blog-btn"><Link to="/blog-details">Read More</Link></div>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
               <div className="blog-thumb2">
-                <Link to="blog-details.html"><img src={innerb2} alt="img" /></Link>
+                <Link to="/blog-details"><img src={innerb2} alt="img" /></Link>
               </div>
               <div className="blog-content2">
                 <div className="date-home">
                   24th March 2022
                 </div>
-                <h4><Link to="blog-details.html">Dras accumsan nulla nec lacus ultricies placerat.</Link></h4>
+                <h4><Link to="/blog-details">Dras accumsan nulla nec lacus ultricies placerat.</Link></h4>
                 <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
-                <div className="blog-btn"><Link to="blog-details.html">Read More</Link></div>
+                <div className="blog-btn"><Link to="/blog-details">Read More</Link></div>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
               <div className="blog-thumb2">
-                <Link to="blog-details.html"><img src={innerb3} alt="img" /></Link>
+                <Link to="/blog-details"><img src={innerb3} alt="img" /></Link>
               </div>
               <div className="blog-content2">
                 <div className="date-home">
                   24th March 2022
                 </div>
-                <h4><Link to="blog-details.html">Seas accumsan nulla nec lacus ultricies placerat.</Link></h4>
+                <h4><Link to="/blog-details">Seas accumsan nulla nec lacus ultricies placerat.</Link></h4>
                 <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
-                <div className="blog-btn"><Link to="blog-details.html">Read More</Link></div>
+                <div className="blog-btn"><Link to="/blog-details">Read More</Link></div>
               </div>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import singleRoom01 from '../../assets/img/bg/single-room-img01.png'
 import singleRoom02 from '../../assets/img/bg/single-room-img02.png'
 import singleRoom03 from '../../assets/img/bg/single-room-img03.png'
@@ -74,7 +75,7 @@ const ServiceDetailsArea = () => {
               {/*Service Contact*/}
               <div className="service-detail-contact wow fadeup-animation" data-wow-delay="1.1s">
                 <h3 className="h3-title">If You Need Any Help Contact With Us</h3>
-                <a href="javascript:void(0);" title="Call now">+91 705 2101 786</a>
+                <Link to="javascript:void(0);" title="Call now">+91 705 2101 786</Link>
               </div>
             </aside>
           </div>
@@ -141,7 +142,7 @@ const ServiceDetailsArea = () => {
                 <h3>Children and extra beds.</h3>
                 <p>Children are welcome Kids stay free! Children stay free when using existing bedding; children may not be eligible for complimentary breakfast Rollaway/extra beds are available for $ 10 per day.Interdum et malesu they adamale fames ac anteipsu pimsine faucibus curabitur arcu site feugiat in tortor in, volutpat sollicitudin libero. Hotel non lorem acer suscipit bibendum vulla facilisi nedeuter nunc volutpa mollis sapien velet conseyer turpeutionyer masin libero sempe mollis.</p>
                 <div className="mb-50">
-                  <a href="contact.html" className="btn ss-btn">Book This Room</a>
+                  <Link to="/contact" className="btn ss-btn">Book This Room</Link>
                 </div>
               </div>
             </div>

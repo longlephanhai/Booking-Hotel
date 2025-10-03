@@ -51,44 +51,44 @@ const Header = () => {
                     <ul>
                       <li className="has-sub">
                         <Link to="/">Home</Link>
-                        <ul>
+                        {/* <ul>
                           <li><Link to="/home-2">Home Page 01</Link></li>
                           <li><Link to="/home-3">Home Page 02</Link></li>
                           <li><Link to="/side-menu">Home Page Side Menu</Link></li>
                           <li><Link to="/">Home Page Full Menu</Link></li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li><Link to="/about">About</Link></li>
                       <li className="has-sub">
                         <Link to="/room">our rooms</Link>
                         <ul>
                           <li> <Link to="/room">Our Rooms</Link></li>
-                          <li> <Link to="/room-detail">Rooms Details</Link></li>
+                          {/* <li> <Link to="/room-detail">Rooms Details</Link></li> */}
                         </ul>
                       </li>
                       <li className="has-sub">
                         <Link to="/services">Facilities</Link>
                         <ul>
                           <li> <Link to="/services">Services</Link></li>
-                          <li> <Link to="/service-detail">Services Details</Link></li>
+                          {/* <li> <Link to="/service-detail">Services Details</Link></li> */}
                         </ul>
                       </li>
                       <li className="has-sub"><Link to="#">Pages</Link>
                         <ul>
-                          <li><Link to="/gallery">Gallery</Link></li>
+                          {/* <li><Link to="/gallery">Gallery</Link></li> */}
                           <li><Link to="/faq">Faq</Link></li>
                           <li><Link to="/team">Team</Link></li>
                           <li><Link to="/team-detail">Team Details</Link></li>
                           <li><Link to="/pricing">Pricing</Link></li>
-                          <li><Link to="/shop">Shop</Link></li>
-                          <li><Link to="/shop-details">Shop Details</Link></li>
+                          {/* <li><Link to="/shop">Shop</Link></li> */}
+                          {/* <li><Link to="/shop-details">Shop Details</Link></li> */}
                         </ul>
                       </li>
                       <li className="has-sub">
                         <Link to="/blog">Blog</Link>
                         <ul>
                           <li><Link to="/blog">Blog</Link></li>
-                          <li><Link to="/blog-details">Blog Details</Link></li>
+                          {/* <li><Link to="/blog-details">Blog Details</Link></li> */}
                         </ul>
                       </li>
                       <li><Link to="/contact">Contact</Link></li>
@@ -96,9 +96,9 @@ const Header = () => {
                   </nav>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-2 d-none d-lg-block">
+              {/* <div className="col-xl-2 col-lg-2 d-none d-lg-block">
                 <Link to="/contact" className="top-btn mt-10 mb-10">reservation </Link>
-              </div>
+              </div> */}
               <div className="col-12">
                 <div className="mobile-menu" />
               </div>

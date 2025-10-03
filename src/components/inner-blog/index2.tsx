@@ -7,6 +7,7 @@ import comment2 from "../../assets/img/blog/comment/c_02.png"
 import comment3 from "../../assets/img/blog/comment/c_03.png"
 import c_d01 from "../../assets/img/icon/c_d01.png"
 import avatar from "../../assets/img/blog/comment/avatar.png"
+import { Link } from "react-router-dom"
 
 const InnerBlog2 = () => {
   return (
@@ -46,9 +47,9 @@ const InnerBlog2 = () => {
                       <div className="post__tag">
                         <h5>Releted Tags</h5>
                         <ul>
-                          <li><a href="#">organic</a></li>
-                          <li><a href="#">Foods</a></li>
-                          <li><a href="#">tasty</a></li>
+                          <li><Link to="#">organic</Link></li>
+                          <li><Link to="#">Foods</Link></li>
+                          <li><Link to="#">tasty</Link></li>
                         </ul>
                       </div>
                     </div>
@@ -59,16 +60,16 @@ const InnerBlog2 = () => {
                     <div className="col-xl-4 col-md-5">
                       <div className="prev-link">
                         <span>Prev Post</span>
-                        <h4><a href="#">Tips Minimalist</a></h4>
+                        <h4><Link to="#">Tips Minimalist</Link></h4>
                       </div>
                     </div>
                     <div className="col-xl-4 col-md-2 text-left text-md-center">
-                      <a href="blog.html" className="blog-filter"><img src={c_d01} alt="" /></a>
+                      <Link to="/blog" className="blog-filter"><img src={c_d01} alt="" /></Link>
                     </div>
                     <div className="col-xl-4 col-md-5">
                       <div className="next-link text-left text-md-right">
                         <span>next Post</span>
-                        <h4><a href="#">Less Is More</a></h4>
+                        <h4><Link to="#">Less Is More</Link></h4>
                       </div>
                     </div>
                   </div>
@@ -84,7 +85,7 @@ const InnerBlog2 = () => {
                           <img src={blogDetail3} alt="" />
                         </div>
                         <div className="rp__content">
-                          <h3><a href="#">Auis nostrud exercita ullamco laboris nisi ut</a></h3>
+                          <h3><Link to="#">Auis nostrud exercita ullamco laboris nisi ut</Link></h3>
                           <p>Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or
                             incididunt ut labore et dolore.</p>
                         </div>
@@ -96,7 +97,7 @@ const InnerBlog2 = () => {
                           <img src={blogDetail4} alt="" />
                         </div>
                         <div className="rp__content">
-                          <h3><a href="#">Excepteur sint occaecat cupida tat non proident</a></h3>
+                          <h3><Link to="#">Excepteur sint occaecat cupida tat non proident</Link></h3>
                           <p>Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or
                             incididunt ut labore et dolore.</p>
                         </div>
@@ -111,11 +112,11 @@ const InnerBlog2 = () => {
                   <div className="avatar__info">
                     <h5>Rosalina William</h5>
                     <div className="avatar__info-social">
-                      <a href="#"><i className="fab fa-facebook-f" /></a>
-                      <a href="#"><i className="fab fa-twitter" /></a>
-                      <a href="#"><i className="fab fa-instagram" /></a>
-                      <a href="#"><i className="fab fa-behance" /></a>
-                      <a href="#"><i className="fab fa-linkedin" /></a>
+                      <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                      <Link to="#"><i className="fab fa-twitter" /></Link>
+                      <Link to="#"><i className="fab fa-instagram" /></Link>
+                      <Link to="#"><i className="fab fa-behance" /></Link>
+                      <Link to="#"><i className="fab fa-linkedin" /></Link>
                     </div>
                   </div>
                   <div className="avatar__wrap-content">
@@ -138,7 +139,7 @@ const InnerBlog2 = () => {
                         <span>19th May 2021</span>
                       </div>
                       <p>The bee's knees bite your arm off bits and bobs he nicked it gosh gutted mate blimey, old off his nut argy bargy vagabond buggered dropped.</p>
-                      <a href="#" className="comment-reply mt-15"><i className="fas fa-reply" /> Reply</a>
+                      <Link to="#" className="comment-reply mt-15"><i className="fas fa-reply" /> Reply</Link>
                     </div>
                   </div>
                   <div className="single__comment children mb-35">
@@ -151,7 +152,7 @@ const InnerBlog2 = () => {
                         <span>19th May 2021</span>
                       </div>
                       <p>Do one say wind up buggered bobby bite your arm off gutted mate, David victoria sponge cup of char chap fanny around.</p>
-                      <a href="#" className="comment-reply mt-15"><i className="fas fa-reply" /> Reply</a>
+                      <Link to="#" className="comment-reply mt-15"><i className="fas fa-reply" /> Reply</Link>
                     </div>
                   </div>
                   <div className="single__comment">
@@ -164,13 +165,13 @@ const InnerBlog2 = () => {
                         <span>21th May 2021</span>
                       </div>
                       <p>Baking cakes is cobblers wellies William geeza bits and bobs what a plonker it's your round,</p>
-                      <a href="#" className="comment-reply mt-15"><i className="fas fa-reply" /> Reply</a>
+                      <Link to="#" className="comment-reply mt-15"><i className="fas fa-reply" /> Reply</Link>
                     </div>
                   </div>
                 </div>
                 <div id="comments" className="comments-area  mt-45">
                   <div id="respond" className="comment-respond">
-                    <h3 id="reply-title" className="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://htmldemo.zcubethemes.com/finco/?p=2112#respond" style={{display: 'none'}}>Cancel reply</a></small></h3>
+                    <h3 id="reply-title" className="comment-reply-title">Leave a Reply <small><Link rel="nofollow" id="cancel-comment-reply-link" to="https://htmldemo.zcubethemes.com/finco/?p=2112#respond" style={{display: 'none'}}>Cancel reply</Link></small></h3>
                     <form action="http://wordpress.zcube.in/finco/wp-comments-post.php" method="post" id="commentform" className="comment-form" noValidate>
                       <p className="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span className="required">*</span></p>
                       <p className="comment-field"><i className="fas fa-user" /><input id="author" placeholder="Your Name" name="author" type="text" /></p>
@@ -203,36 +204,36 @@ const InnerBlog2 = () => {
                   <h2 className="widget-title">Follow Us</h2>
                   <div className="textwidget custom-html-widget">
                     <div className="widget-social">
-                      <a href="#"><i className="fab fa-twitter" /></a>
-                      <a href="#"><i className="fab fa-pinterest-p" /></a>
-                      <a href="#"><i className="fab fa-facebook-f" /></a>
-                      <a href="#"><i className="fab fa-instagram" /></a>
-                      <a href="#"><i className="fab fa-wordpress" /></a>
+                      <Link to="#"><i className="fab fa-twitter" /></Link>
+                      <Link to="#"><i className="fab fa-pinterest-p" /></Link>
+                      <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                      <Link to="#"><i className="fab fa-instagram" /></Link>
+                      <Link to="#"><i className="fab fa-wordpress" /></Link>
                     </div>
                   </div>
                 </section>
                 <section id="categories-1" className="widget widget_categories">
                   <h2 className="widget-title">Categories</h2>
                   <ul>
-                    <li className="cat-item cat-item-16"><a href="#">Branding</a> (4)</li>
-                    <li className="cat-item cat-item-23"><a href="#">Corporat</a> (3)</li>
-                    <li className="cat-item cat-item-18"><a href="#">Design</a> (3)</li>
-                    <li className="cat-item cat-item-22"><a href="#">Gallery</a> (3)</li>
+                    <li className="cat-item cat-item-16"><Link to="#">Branding</Link> (4)</li>
+                    <li className="cat-item cat-item-23"><Link to="#">Corporat</Link> (3)</li>
+                    <li className="cat-item cat-item-18"><Link to="#">Design</Link> (3)</li>
+                    <li className="cat-item cat-item-22"><Link to="#">Gallery</Link> (3)</li>
                   </ul>
                 </section>
                 <section id="recent-posts-4" className="widget widget_recent_entries">
                   <h2 className="widget-title">Recent Posts</h2>
                   <ul>
                     <li>
-                      <a href="#">User Experience Psychology And Performance Smshing</a>
+                      <Link to="#">User Experience Psychology And Performance Smshing</Link>
                       <span className="post-date">August 19, 2020</span>
                     </li>
                     <li>
-                      <a href="#">Monthly Web Development Up Cost Of JavaScript</a>
+                      <Link to="#">Monthly Web Development Up Cost Of JavaScript</Link>
                       <span className="post-date">August 19, 2020</span>
                     </li>
                     <li>
-                      <a href="#">There are many variation passages of like available.</a>
+                      <Link to="#">There are many variation passages of like available.</Link>
                       <span className="post-date">August 19, 2020</span>
                     </li>
                   </ul>
@@ -240,13 +241,13 @@ const InnerBlog2 = () => {
                 <section id="tag_cloud-1" className="widget widget_tag_cloud">
                   <h2 className="widget-title">Tag</h2>
                   <div className="tagcloud">
-                    <a href="#" className="tag-cloud-link tag-link-28 tag-link-position-1" style={{fontSize: '8pt'}} aria-label="app (1 item)">app</a>
-                    <a href="#" className="tag-cloud-link tag-link-17 tag-link-position-2" style={{fontSize: '8pt'}} aria-label="Branding (1 item)">Branding</a>
-                    <a href="#" className="tag-cloud-link tag-link-20 tag-link-position-3" style={{fontSize: '8pt'}} aria-label="corporat (1 item)">corporat</a>
-                    <a href="#" className="tag-cloud-link tag-link-24 tag-link-position-4" style={{fontSize: '16.4pt'}} aria-label="Design (2 items)">Design</a>
-                    <a href="#" className="tag-cloud-link tag-link-25 tag-link-position-5" style={{fontSize: '22pt'}} aria-label="gallery (3 items)">gallery</a>
-                    <a href="#" className="tag-cloud-link tag-link-26 tag-link-position-6" style={{fontSize: '8pt'}} aria-label="video (1 item)">video</a>
-                    <a href="#" className="tag-cloud-link tag-link-29 tag-link-position-7" style={{fontSize: '16.4pt'}} aria-label="web design (2 items)">web design</a>
+                    <Link to="#" className="tag-cloud-link tag-link-28 tag-link-position-1" style={{fontSize: '8pt'}} aria-label="app (1 item)">app</Link>
+                    <Link to="#" className="tag-cloud-link tag-link-17 tag-link-position-2" style={{fontSize: '8pt'}} aria-label="Branding (1 item)">Branding</Link>
+                    <Link to="#" className="tag-cloud-link tag-link-20 tag-link-position-3" style={{fontSize: '8pt'}} aria-label="corporat (1 item)">corporat</Link>
+                    <Link to="#" className="tag-cloud-link tag-link-24 tag-link-position-4" style={{fontSize: '16.4pt'}} aria-label="Design (2 items)">Design</Link>
+                    <Link to="#" className="tag-cloud-link tag-link-25 tag-link-position-5" style={{fontSize: '22pt'}} aria-label="gallery (3 items)">gallery</Link>
+                    <Link to="#" className="tag-cloud-link tag-link-26 tag-link-position-6" style={{fontSize: '8pt'}} aria-label="video (1 item)">video</Link>
+                    <Link to="#" className="tag-cloud-link tag-link-29 tag-link-position-7" style={{fontSize: '16.4pt'}} aria-label="web design (2 items)">web design</Link>
                   </div>
                 </section>
               </aside>

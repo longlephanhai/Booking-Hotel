@@ -1,5 +1,6 @@
 import logo from '../../assets/img/logo/logo.png'
 import footer from '../../assets/img/bg/footer-bg.png'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="footer-bg footer-p">
@@ -19,9 +20,9 @@ const Footer = () => {
                     </li>
                     <li><i className="icon fal fa-envelope" />
                       <span>
-                        <a href="mailto:info@example.com">info@example.com</a>
+                        <Link to="mailto:info@example.com">info@example.com</Link>
                         <br />
-                        <a href="mailto:help@example.com">help@example.com</a>
+                        <Link to="mailto:help@example.com">help@example.com</Link>
                       </span>
                     </li>
                     <li>
@@ -39,11 +40,11 @@ const Footer = () => {
                 </div>
                 <div className="footer-link">
                   <ul>
-                    <li><a href="index-2.html">Home</a></li>
-                    <li><a href="about.html"> About Us</a></li>
-                    <li><a href="services.html"> Services </a></li>
-                    <li><a href="contact.html"> Contact Us</a></li>
-                    <li><a href="blog.html">Blog </a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about"> About Us</Link></li>
+                    <li><Link to="/services"> Services </Link></li>
+                    <li><Link to="/contact"> Contact Us</Link></li>
+                    <li><Link to="/blog">Blog </Link></li>
                   </ul>
                 </div>
               </div>
@@ -55,10 +56,10 @@ const Footer = () => {
                 </div>
                 <div className="footer-link">
                   <ul>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Privercy</a></li>
-                    <li><a href="#">Term &amp; Conditions</a></li>
+                    <li><Link to="/faq">FAQ</Link></li>
+                    <li><Link to="#">Support</Link></li>
+                    <li><Link to="#">Privercy</Link></li>
+                    <li><Link to="#">Term &amp; Conditions</Link></li>
                   </ul>
                 </div>
               </div>
@@ -89,9 +90,9 @@ const Footer = () => {
             </div>
             <div className="col-lg-6 col-md-6 text-right text-xl-right">
               <div className="footer-social">
-                <a href="#"><i className="fab fa-facebook-f" /></a>
-                <a href="#"><i className="fab fa-twitter" /></a>
-                <a href="#"><i className="fab fa-instagram" /></a>
+                <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                <Link to="#"><i className="fab fa-twitter" /></Link>
+                <Link to="#"><i className="fab fa-instagram" /></Link>
               </div>
             </div>
           </div>

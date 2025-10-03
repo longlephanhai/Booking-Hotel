@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import $ from "jquery";
 import "jquery/dist/jquery.min.js";
+import { Link } from "react-router-dom";
 const OffCanvasMenu = () => {
   useEffect(() => {
     $(".menu-tigger").on("click", function () {
@@ -31,18 +32,18 @@ const OffCanvasMenu = () => {
           <button><i className="fal fa-search" /></button>
         </form>
         <ul className="menu">
-          <li><a href="index-2.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="projects.html">Gallery Study</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><Link to="/index-2">Home</Link></li>
+          <li><Link to="/about">About Us</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/pricing">Pricing</Link></li>
+          <li><Link to="/team">Team</Link></li>
+          <li><Link to="/projects">Gallery Study</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
         <ul className="menu mt-100">
-          <li><a href="tel:+8123456897">+8 12 3456897</a></li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><Link to="tel:+8123456897">+8 12 3456897</Link></li>
+          <li><Link to="mailto:info@example.com">info@example.com</Link></li>
         </ul>
       </div>
 

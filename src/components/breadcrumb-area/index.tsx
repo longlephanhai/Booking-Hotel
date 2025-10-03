@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bdrc from '../../assets/img/bg/bdrc-bg.jpg';
 
 const BreadcrumbArea = (props: { title: string, tag: string }) => {
@@ -12,7 +13,7 @@ const BreadcrumbArea = (props: { title: string, tag: string }) => {
                 <div className="breadcrumb-wrap">
                   <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                      <li className="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                      <li className="breadcrumb-item"><Link to="/index-2">Home</Link></li>
                       <li className="breadcrumb-item active" aria-current="page">{props.tag}</li>
                     </ol>
                   </nav>

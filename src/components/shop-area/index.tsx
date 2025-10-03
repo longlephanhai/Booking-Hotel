@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import shopImg1 from '../../assets/img/shop/img1.jpg'
 import shopImg2 from '../../assets/img/shop/img2.jpg'
 import shopImg3 from '../../assets/img/shop/img3.jpg'
@@ -31,14 +32,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg4} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg4} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Chair</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Bakari Product</a></h4>
+                <span className="pro-cat"><Link to="#">Chair</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Bakari Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -49,14 +50,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg5} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg5} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Cloths</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Romada Product</a></h4>
+                <span className="pro-cat"><Link to="#">Cloths</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Romada Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -67,14 +68,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg6} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg6} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Light</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Sikkar Product</a></h4>
+                <span className="pro-cat"><Link to="#">Light</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Sikkar Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -85,14 +86,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg7} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg7} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Headphone</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Minners Product</a></h4>
+                <span className="pro-cat"><Link to="#">Headphone</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Minners Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -103,14 +104,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg8} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg8} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">table</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Dolando Product</a></h4>
+                <span className="pro-cat"><Link to="#">table</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Dolando Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -121,14 +122,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg9} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg9} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Cloths</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Romada Product</a></h4>
+                <span className="pro-cat"><Link to="#">Cloths</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Romada Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -139,14 +140,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg1} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg1} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Cloths</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Medidove Product</a></h4>
+                <span className="pro-cat"><Link to="#">Cloths</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Medidove Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -157,14 +158,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg2} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg2} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Cloths</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Legend Product</a></h4>
+                <span className="pro-cat"><Link to="#">Cloths</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Legend Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -175,14 +176,14 @@ const ShopArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="product mb-40">
               <div className="product__img">
-                <a href="shop-details.html"><img src={shopImg3} alt="" /></a>
+                <Link to="/shop-details"><img src={shopImg3} alt="" /></Link>
                 <div className="product-action text-center">
-                  <a href="shop-details.html">Add Cart</a>
+                  <Link to="/shop-details">Add Cart</Link>
                 </div>
               </div>
               <div className="product__content text-center pt-30">
-                <span className="pro-cat"><a href="#">Table</a></span>
-                <h4 className="pro-title"><a href="shop-details.html">Akari Product</a></h4>
+                <span className="pro-cat"><Link to="#">Table</Link></span>
+                <h4 className="pro-title"><Link to="/shop-details">Akari Product</Link></h4>
                 <div className="price">
                   <span>$95.00</span>
                   <span className="old-price">$120.00</span>
@@ -196,13 +197,13 @@ const ShopArea = () => {
             <div className="pagination-wrap mt-50 text-center">
               <nav>
                 <ul className="pagination">
-                  <li className="page-item"><a href="#"><i className="fas fa-angle-double-left" /></a></li>
-                  <li className="page-item active"><a href="#">1</a></li>
-                  <li className="page-item"><a href="#">2</a></li>
-                  <li className="page-item"><a href="#">3</a></li>
-                  <li className="page-item"><a href="#">...</a></li>
-                  <li className="page-item"><a href="#">10</a></li>
-                  <li className="page-item"><a href="#"><i className="fas fa-angle-double-right" /></a></li>
+                  <li className="page-item"><Link to="#"><i className="fas fa-angle-double-left" /></Link></li>
+                  <li className="page-item active"><Link to="#">1</Link></li>
+                  <li className="page-item"><Link to="#">2</Link></li>
+                  <li className="page-item"><Link to="#">3</Link></li>
+                  <li className="page-item"><Link to="#">...</Link></li>
+                  <li className="page-item"><Link to="#">10</Link></li>
+                  <li className="page-item"><Link to="#"><i className="fas fa-angle-double-right" /></Link></li>
                 </ul>
               </nav>
             </div>

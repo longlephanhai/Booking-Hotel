@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ContactComponent = () => {
   return (
     <section id="contact" className="contact-area after-none contact-bg pt-120 pb-120 p-relative fix">
@@ -26,7 +28,7 @@ const ContactComponent = () => {
                   <i className="far fa-envelope-open" />
                 </div>
                 <h5>Message Us</h5>
-                <p> <a href="#">support@example.com</a><br /><a href="#">info@example.com</a></p>
+                <p> <Link to="#">support@example.com</Link><br /><Link to="#">info@example.com</Link></p>
               </div>
             </div>
           </div>

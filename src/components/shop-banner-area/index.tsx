@@ -4,6 +4,7 @@ import thumb3 from "../../assets/img/shop/details/thumb3.jpg"
 import large1 from "../../assets/img/shop/details/large1.jpg"
 import large2 from "../../assets/img/shop/details/large2.jpg"
 import large3 from "../../assets/img/shop/details/large3.jpg"
+import { Link } from "react-router-dom"
 
 const ShopBannerArea = () => {
   return (
@@ -14,13 +15,13 @@ const ShopBannerArea = () => {
             <div className="shop-thumb-tab mb-30">
               <ul className="nav" id="myTab2" role="tablist">
                 <li className="nav-item">
-                  <a className="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-selected="true"><img src={thumb1} alt="" /> </a>
+                  <Link className="nav-link active" id="home-tab" data-bs-toggle="tab" to="#home" role="tab" aria-selected="true"><img src={thumb1} alt="" /> </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-selected="false"><img src={thumb2} alt="" /></a>
+                  <Link className="nav-link" id="profile-tab" data-bs-toggle="tab" to="#profile" role="tab" aria-selected="false"><img src={thumb2} alt="" /></Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" id="profile-tab2" data-bs-toggle="tab" href="#profile1" role="tab" aria-selected="false"><img src={thumb3} alt="" /></a>
+                  <Link className="nav-link" id="profile-tab2" data-bs-toggle="tab" to="#profile1" role="tab" aria-selected="false"><img src={thumb3} alt="" /></Link>
                 </li>
               </ul>
             </div>
@@ -61,8 +62,8 @@ const ShopBannerArea = () => {
                 using 'Content here, content here', making it look like readable English.</p>
               <div className="product-cat mt-30 mb-30">
                 <span>Category: </span>
-                <a href="#">furniture,</a>
-                <a href="#">decor</a>
+                <Link to="#">furniture,</Link>
+                <Link to="#">decor</Link>
               </div>
               <div className="product-details-action">
                 <form action="#">
@@ -73,11 +74,11 @@ const ShopBannerArea = () => {
                 </form>
               </div>
               <div className="product-social mt-45">
-                <a href="#"><i className="fab fa-facebook-f" /></a>
-                <a href="#"><i className="fab fa-twitter" /></a>
-                <a href="#"><i className="fab fa-behance" /></a>
-                <a href="#"><i className="fab fa-linkedin-in" /></a>
-                <a href="#"><i className="fab fa-youtube" /></a>
+                <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                <Link to="#"><i className="fab fa-twitter" /></Link>
+                <Link to="#"><i className="fab fa-behance" /></Link>
+                <Link to="#"><i className="fab fa-linkedin-in" /></Link>
+                <Link to="#"><i className="fab fa-youtube" /></Link>
               </div>
             </div>
           </div>

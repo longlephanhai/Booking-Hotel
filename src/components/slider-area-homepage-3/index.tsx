@@ -87,7 +87,7 @@ const SliderAreaHomePage3 = () => {
                   <h2 data-animation="fadeInUp" data-delay=".4s">Enjoy A Luxuary Experience</h2>
                   <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
                   <div className="slider-btn mt-30 mb-105">
-                    <Link to="contact" className="btn ss-btn active" data-animation="fadeInLeft" data-delay=".4s">Visit Our Shop</Link>
+                    <Link to="/contact" className="btn ss-btn active" data-animation="fadeInLeft" data-delay=".4s">Visit Our Shop</Link>
                   </div>
                 </div>
               </div>

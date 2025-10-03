@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import innerb1 from '../../assets/img/blog/inner_b1.jpg';
 import innerb2 from '../../assets/img/blog/inner_b2.jpg';
 import innerb3 from '../../assets/img/blog/inner_b3.jpg';
+import { Link } from "react-router-dom";
 
 const InnerBlog = () => {
   useEffect(() => {
@@ -47,11 +48,11 @@ const InnerBlog = () => {
               <div className="bsingle__content">
                 <div className="date-home">24th March 2022</div>
                 <h2>
-                  <a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur cing elit...</a>
+                  <Link to="/blog-details">Lorem ipsum dolor sit amet, consectetur cing elit...</Link>
                 </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                 <div className="blog__btn">
-                  <a href="#">Read More</a>
+                  <Link to="#">Read More</Link>
                 </div>
               </div>
             </div>
@@ -68,11 +69,11 @@ const InnerBlog = () => {
               <div className="bsingle__content">
                 <div className="date-home">24th March 2022</div>
                 <h2>
-                  <a href="blog-details.html">I must explain to you how all this mistaken idea...</a>
+                  <Link to="/blog-details">I must explain to you how all this mistaken idea...</Link>
                 </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                 <div className="blog__btn">
-                  <a href="#">Read More</a>
+                  <Link to="#">Read More</Link>
                 </div>
               </div>
             </div>
@@ -81,13 +82,13 @@ const InnerBlog = () => {
             <div className="pagination-wrap">
               <nav>
                 <ul className="pagination">
-                  <li className="page-item"><a href="#"><i className="fas fa-angle-double-left" /></a></li>
-                  <li className="page-item active"><a href="#">1</a></li>
-                  <li className="page-item"><a href="#">2</a></li>
-                  <li className="page-item"><a href="#">3</a></li>
-                  <li className="page-item"><a href="#">...</a></li>
-                  <li className="page-item"><a href="#">10</a></li>
-                  <li className="page-item"><a href="#"><i className="fas fa-angle-double-right" /></a></li>
+                  <li className="page-item"><Link to="#"><i className="fas fa-angle-double-left" /></Link></li>
+                  <li className="page-item active"><Link to="#">1</Link></li>
+                  <li className="page-item"><Link to="#">2</Link></li>
+                  <li className="page-item"><Link to="#">3</Link></li>
+                  <li className="page-item"><Link to="#">...</Link></li>
+                  <li className="page-item"><Link to="#">10</Link></li>
+                  <li className="page-item"><Link to="#"><i className="fas fa-angle-double-right" /></Link></li>
                 </ul>
               </nav>
             </div>

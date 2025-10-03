@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/img/logo/logo.png'
 
 const HeaderFull = () => {
@@ -23,10 +24,10 @@ const HeaderFull = () => {
             <div className="col-lg-2 col-md-2 d-none d-lg-block text-right">
               <div className="header-social">
                 <span>
-                  <a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a>
-                  <a href="#" title="LinkedIn"><i className="fab fa-instagram" /></a>
-                  <a href="#" title="Twitter"><i className="fab fa-twitter" /></a>
-                  <a href="#" title="Twitter"><i className="fab fa-youtube" /></a>
+                  <Link to="#" title="Facebook"><i className="fab fa-facebook-f" /></Link>
+                  <Link to="#" title="LinkedIn"><i className="fab fa-instagram" /></Link>
+                  <Link to="#" title="Twitter"><i className="fab fa-twitter" /></Link>
+                  <Link to="#" title="Twitter"><i className="fab fa-youtube" /></Link>
                 </span>
                 {/*  /social media icon redux */}
               </div>
@@ -40,7 +41,7 @@ const HeaderFull = () => {
             <div className="row align-items-center">
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
-                  <a href="index-2.html"><img src={logo} alt="logo" /></a>
+                  <Link to="/index-2"><img src={logo} alt="logo" /></Link>
                 </div>
               </div>
               <div className="col-xl-9 col-lg-9">
@@ -48,48 +49,48 @@ const HeaderFull = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li className="has-sub">
-                        <a href="index-2.html">Home</a>
+                        <Link to="/index-2">Home</Link>
                         <ul>
-                          <li><a href="index-2.html">Home Page 01</a></li>
-                          <li><a href="index-3.html">Home Page 02</a></li>
-                          <li><a href="index-4.html">Home Page Side Menu</a></li>
-                          <li><a href="index-5.html">Home Page Full Menu</a></li>
+                          <li><Link to="/index-2">Home Page 01</Link></li>
+                          <li><Link to="/index-3">Home Page 02</Link></li>
+                          <li><Link to="/index-4">Home Page Side Menu</Link></li>
+                          <li><Link to="/index-5">Home Page Full Menu</Link></li>
                         </ul>
                       </li>
-                      <li><a href="about.html">About</a></li>
+                      <li><Link to="/about">About</Link></li>
                       <li className="has-sub">
-                        <a href="room.html">our rooms</a>
+                        <Link to="/room">our rooms</Link>
                         <ul>
-                          <li> <a href="room.html">Our Rooms</a></li>
-                          <li> <a href="single-rooms.html">Rooms Details</a></li>
+                          <li> <Link to="/room">Our Rooms</Link></li>
+                          <li> <Link to="/room-detail">Rooms Details</Link></li>
                         </ul>
                       </li>
                       <li className="has-sub">
-                        <a href="services.html">Facilities</a>
+                        <Link to="/services">Facilities</Link>
                         <ul>
-                          <li> <a href="services.html">Services</a></li>
-                          <li> <a href="single-service.html">Services Details</a></li>
+                          <li> <Link to="/services">Services</Link></li>
+                          <li> <Link to="/service-detail">Services Details</Link></li>
                         </ul>
                       </li>
-                      <li className="has-sub"><a href="#">Pages</a>
+                      <li className="has-sub"><Link to="#">Pages</Link>
                         <ul>
-                          <li><a href="projects.html">Gallery</a></li>
-                          <li><a href="faq.html">Faq</a></li>
-                          <li><a href="team.html">Team</a></li>
-                          <li><a href="team-single.html">Team Details</a></li>
-                          <li><a href="pricing.html">Pricing</a></li>
-                          <li><a href="shop.html">Shop</a></li>
-                          <li><a href="shop-details.html">Shop Details</a>
+                          <li><Link to="/projects">Gallery</Link></li>
+                          <li><Link to="/faq">Faq</Link></li>
+                          <li><Link to="/team">Team</Link></li>
+                          <li><Link to="/team-detail">Team Details</Link></li>
+                          <li><Link to="/pricing">Pricing</Link></li>
+                          <li><Link to="/shop">Shop</Link></li>
+                          <li><Link to="/shop-details">Shop Details</Link>
                           </li></ul>
                       </li>
                       <li className="has-sub">
-                        <a href="blog.html">Blog</a>
+                        <Link to="/blog">Blog</Link>
                         <ul>
-                          <li><a href="blog.html">Blog</a></li>
-                          <li><a href="blog-details.html">Blog Details</a></li>
+                          <li><Link to="/blog">Blog</Link></li>
+                          <li><Link to="/blog-details">Blog Details</Link></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><Link to="/contact">Contact</Link></li>
                     </ul>
                   </nav>
                 </div>
@@ -97,7 +98,7 @@ const HeaderFull = () => {
               <div className="col-xl-1 col-lg-1 d-none d-lg-block text-right">
                 <div className="search-top">
                   <ul>
-                    <li><div className="bar-humburger"><a href="#" className="menu-tigger"><i className="fal fa-bars" /></a></div></li>
+                    <li><div className="bar-humburger"><Link to="#" className="menu-tigger"><i className="fal fa-bars" /></Link></div></li>
                   </ul>
                 </div>
               </div>

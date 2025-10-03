@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import protfolioImg01 from '../../assets/img/gallery/protfolio-img01.png';
 import protfolioImg03 from '../../assets/img/gallery/protfolio-img03.png';
 import protfolioImg04 from '../../assets/img/gallery/protfolio-img04.png';
@@ -16,19 +17,19 @@ const ServiceDetails3Area = () => {
                   <h2 className="widget-title"> Services List </h2>
                   {/* Services Category */}
                   <ul className="services-categories">
-                    <li><a href="single-service.html">Electrical system </a></li>
-                    <li className="active"><a href="single-service.html">Tire and wheel </a></li>
-                    <li><a href="single-service.html">System service </a></li>
-                    <li><a href="single-service.html">Engine diagnostics </a></li>
-                    <li><a href="single-service.html"> Drivability problems </a></li>
-                    <li><a href="single-service.html">Accident Insurance</a></li>
+                    <li><Link to="/service-detail">Electrical system </Link></li>
+                    <li className="active"><Link to="/service-detail">Tire and wheel </Link></li>
+                    <li><Link to="/service-detail">System service </Link></li>
+                    <li><Link to="/service-detail">Engine diagnostics </Link></li>
+                    <li><Link to="/service-detail"> Drivability problems </Link></li>
+                    <li><Link to="/service-detail">Accident Insurance</Link></li>
                   </ul>
                 </div>
               </div>
               {/*Service Contact*/}
               <div className="service-detail-contact wow fadeup-animation" data-wow-delay="1.1s">
                 <h3 className="h3-title">If You Need Any Help Contact With Us</h3>
-                <a href="javascript:void(0);" title="Call now">+91 705 2101 786</a>
+                <Link to="javascript:void(0);" title="Call now">+91 705 2101 786</Link>
               </div>
             </aside>
           </div>

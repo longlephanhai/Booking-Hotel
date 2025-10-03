@@ -20,6 +20,7 @@ import protfolioImg07 from '../../assets/img/gallery/protfolio-img07.png'
 import protfolioImg08 from '../../assets/img/gallery/protfolio-img08.png'
 import protfolioImg09 from '../../assets/img/gallery/protfolio-img09.png'
 import protfolioImg10 from '../../assets/img/gallery/protfolio-img10.png'
+import { Link } from "react-router-dom";
 
 const GalleryArea = () => {
   useEffect(() => {
@@ -68,11 +69,11 @@ const GalleryArea = () => {
               }}>
                 {images.map((img, idx) => (
                   <div key={idx} className={`grid-item ${img.category}`}>
-                    <a className="popup-image" href={img.src}>
+                    <Link className="popup-image" to={img.src}>
                       <figure className="gallery-image">
                         <img src={img.src} alt="img" className="img" />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                 ))}
               </div>

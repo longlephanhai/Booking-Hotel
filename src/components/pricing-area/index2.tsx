@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bg01 from '../../assets/img/bg/an-img-01.png';
 import bg02 from '../../assets/img/bg/an-img-02.png';
 
@@ -29,7 +30,7 @@ const PricingArea2 = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <a href="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></a>
+                <Link to="/contact" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@ const PricingArea2 = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <a href="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></a>
+                <Link to="/contact" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>
@@ -79,7 +80,7 @@ const PricingArea2 = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <a href="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></a>
+                <Link to="/contact" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>

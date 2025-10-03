@@ -39,9 +39,9 @@ const SliderArea = () => {
         fade: true,
         arrows: true,
         prevArrow:
-          '<button type="button" class="slick-prev"><i class="far fa-angle-left"></i></button>',
+          '',
         nextArrow:
-          '<button type="button" class="slick-next"><i class="far fa-angle-right"></i></button>',
+          '',
         responsive: [
           {
             breakpoint: 1200,
@@ -89,8 +89,8 @@ const SliderArea = () => {
                   <h2 data-animation="fadeInUp" data-delay=".4s">Enjoy A Luxuary Experience</h2>
                   <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
                   <div className="slider-btn mt-30 mb-105">
-                    <Link to="contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                    {/* <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</a> */}
+                    <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
+                    {/* <Link to="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</Link> */}
                   </div>
                 </div>
               </div>
@@ -105,8 +105,8 @@ const SliderArea = () => {
                   <h2 data-animation="fadeInUp" data-delay=".4s">Enjoy A Luxuary Experience</h2>
                   <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
                   <div className="slider-btn mt-30 mb-105">
-                    <Link to="contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                    {/* <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</a> */}
+                    <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
+                    {/* <Link to="https://www.youtube.com/watch?v=gyGsPlt06bo" className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{ animationDelay: '0.8s' }} tabIndex={0}><i className="fas fa-play" /> Intro Video</Link> */}
                   </div>
                 </div>
               </div>

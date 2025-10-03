@@ -36,7 +36,7 @@ const PricingArea = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <Link to="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
+                <Link to="/contact" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const PricingArea = () => {
                 </ul>
               </div>
               <div className="pricing-btn">
-                <Link to="contact.html" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
+                <Link to="/contact" className="btn ss-btn">Get Started <i className="fal fa-angle-right" /></Link>
               </div>
             </div>
           </div>

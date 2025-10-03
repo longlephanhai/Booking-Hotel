@@ -31,9 +31,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon01} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><Link to="single-service.html"> Qulity Room</Link></h3>
+                <h3><Link to="/service-detail"> Qulity Room</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
+                <Link to="/service-detail">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -46,9 +46,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon04} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><Link to="single-service.html">Privet Beach</Link></h3>
+                <h3><Link to="/service-detail">Privet Beach</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
+                <Link to="/service-detail">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -61,9 +61,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon05} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><Link to="single-service.html">Best Accommodation</Link></h3>
+                <h3><Link to="/service-detail">Best Accommodation</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
+                <Link to="/service-detail">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -76,9 +76,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon06} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><Link to="single-service.html"> Wellness &amp; Spa</Link></h3>
+                <h3><Link to="/service-detail"> Wellness &amp; Spa</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
+                <Link to="/service-detail">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -91,9 +91,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon07} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><Link to="single-service.html">Restaurants &amp; Bars</Link></h3>
+                <h3><Link to="/service-detail">Restaurants &amp; Bars</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
+                <Link to="/service-detail">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>
@@ -106,9 +106,9 @@ const ServiceDetails2Area = () => {
                 <img src={feIcon08} alt="img" />
               </div>
               <div className="services-08-content">
-                <h3><Link to="single-service.html">Special Offers</Link></h3>
+                <h3><Link to="/service-detail">Special Offers</Link></h3>
                 <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                <Link to="single-service.html">Read More <i className="fal fa-long-arrow-right" /></Link>
+                <Link to="/service-detail">Read More <i className="fal fa-long-arrow-right" /></Link>
               </div>
             </div>
           </div>

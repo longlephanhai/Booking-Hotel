@@ -9,6 +9,7 @@ import team2 from '../../assets/img/team/team02.jpg';
 import team3 from '../../assets/img/team/team03.jpg';
 import team4 from '../../assets/img/team/team04.jpg';
 import team5 from '../../assets/img/team/team05.jpg';
+import { Link } from "react-router-dom";
 
 const TeamArea = () => {
   useEffect(() => {
@@ -69,9 +70,9 @@ const TeamArea = () => {
                   <p>{member.role}</p>
                   <div className="team-social">
                     <ul>
-                      <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                      <li><a href="#"><i className="fab fa-twitter" /></a></li>
-                      <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                      <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                      <li><Link to="#"><i className="fab fa-twitter" /></Link></li>
+                      <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                     </ul>
                   </div>
                 </div>

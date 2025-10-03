@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import team1 from '../../assets/img/team/team01.jpg';
 import team2 from '../../assets/img/team/team02.jpg';
 import team3 from '../../assets/img/team/team03.jpg';
@@ -20,13 +21,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Bableo Dablo</a></h4>
+                <h4><Link to="/team-detail">Bableo Dablo</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -40,13 +41,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Dawon Crisen</a></h4>
+                <h4><Link to="/team-detail">Dawon Crisen</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -60,13 +61,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">David Suarez</a></h4>
+                <h4><Link to="/team-detail">David Suarez</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -80,13 +81,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Gerard Peano</a></h4>
+                <h4><Link to="/team-detail">Gerard Peano</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -100,13 +101,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Ostin Green</a></h4>
+                <h4><Link to="/team-detail">Ostin Green</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -120,13 +121,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Norman Colins</a></h4>
+                <h4><Link to="/team-detail">Norman Colins</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -140,13 +141,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Ostin Green</a></h4>
+                <h4><Link to="/team-detail">Ostin Green</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -160,13 +161,13 @@ const TeamArea2 = () => {
                 </div>
               </div>
               <div className="team-info">
-                <h4><a href="team-single.html">Norman Colins</a></h4>
+                <h4><Link to="/team-detail">Norman Colins</Link></h4>
                 <p>Worker</p>
                 <div className="team-social">
                   <ul>
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                    <li> <a href="#"><i className="fab fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fab fa-instagram" /></a></li>
+                    <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
+                    <li> <Link to="#"><i className="fab fa-twitter" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>

@@ -63,7 +63,7 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <Link className="gallery-link popup-image" to={roomImg1}>
+                <Link className="gallery-link popup-image" to="/room-detail">
                   <img src={roomImg1} alt="img" />
                 </Link>
               </div>
@@ -71,10 +71,10 @@ const RoomArea = () => {
                 <div className="day-book">
                   <ul>
                     <li>$600/Night</li>
-                    <li><Link to="contact.html">Book Now</Link></li>
+                    <li><Link to="/contact">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><Link to="single-rooms.html">Classic Balcony Room</Link></h4>
+                <h4><Link to="/room-detail">Classic Balcony Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
                 <div className="icon">
                   <ul>
@@ -92,7 +92,7 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <Link className="gallery-link popup-image" to={roomImg2}>
+                <Link className="gallery-link popup-image" to="/room-detail">
                   <img src={roomImg2} alt="img" />
                 </Link>
               </div>
@@ -100,10 +100,10 @@ const RoomArea = () => {
                 <div className="day-book">
                   <ul>
                     <li>$400/Night</li>
-                    <li><Link to="contact.html">Book Now</Link></li>
+                    <li><Link to="/contact">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><Link to="single-rooms.html">Superior Double Room</Link></h4>
+                <h4><Link to="/room-detail">Superior Double Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
                 <div className="icon">
                   <ul>
@@ -121,7 +121,7 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <Link className="gallery-link popup-image" to={roomImg3}>
+                <Link className="gallery-link popup-image" to="/room-detail">
                   <img src={roomImg3} alt="img" />
                 </Link>
               </div>
@@ -129,10 +129,10 @@ const RoomArea = () => {
                 <div className="day-book">
                   <ul>
                     <li>$100/Night</li>
-                    <li><Link to="contact.html">Book Now</Link></li>
+                    <li><Link to="/contact">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><Link to="single-rooms.html">Super Balcony Double Room</Link></h4>
+                <h4><Link to="/room-detail">Super Balcony Double Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
                 <div className="icon">
                   <ul>
@@ -150,7 +150,7 @@ const RoomArea = () => {
           <div className="col-xl-4 col-md-6">
             <div className="single-services mb-30">
               <div className="services-thumb">
-                <Link className="gallery-link popup-image" to={roomImg4}>
+                <Link className="gallery-link popup-image" to="/room-detail">
                   <img src={roomImg4} alt="img" />
                 </Link>
               </div>
@@ -158,10 +158,10 @@ const RoomArea = () => {
                 <div className="day-book">
                   <ul>
                     <li>$300/Night</li>
-                    <li><Link to="contact.html">Book Now</Link></li>
+                    <li><Link to="/contact">Book Now</Link></li>
                   </ul>
                 </div>
-                <h4><Link to="single-rooms.html">Delux Double Room</Link></h4>
+                <h4><Link to="/room-detail">Delux Double Room</Link></h4>
                 <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
                 <div className="icon">
                   <ul>

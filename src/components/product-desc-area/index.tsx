@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const ProductDescArea = () => {
   return (
     <section className="product-desc-area pb-55">
@@ -7,13 +9,13 @@ const ProductDescArea = () => {
             <div className="bakix-details-tab">
               <ul className="nav text-center justify-content-center pb-30 mb-50" id="myTab" role="tablist">
                 <li className="nav-item">
-                  <a className="nav-link active" id="desc-tab" data-bs-toggle="tab" href="#id-desc" role="tab">Description </a>
+                  <Link className="nav-link active" id="desc-tab" data-bs-toggle="tab" to="#id-desc" role="tab">Description </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" id="id-add-in" data-bs-toggle="tab" href="#id-add" role="tab">Additional Information</a>
+                  <Link className="nav-link" id="id-add-in" data-bs-toggle="tab" to="#id-add" role="tab">Additional Information</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" id="id-r" data-bs-toggle="tab" href="#id-rev" role="tab">Reviews(10)</a>
+                  <Link className="nav-link" id="id-r" data-bs-toggle="tab" to="#id-rev" role="tab">Reviews(10)</Link>
                 </li>
               </ul>
             </div>
